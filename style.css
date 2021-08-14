@@ -5,12 +5,14 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font: black;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    font: black;
 }
 
 a:hover {
@@ -27,6 +29,22 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.centered-text{
+    text-align: center;
+    text-justify: center;
+    font-size: medium;
+}
+
+.text-center{
+    font-size: medium;
+}
+
+.contact-page-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -38,6 +56,12 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+
+.bloc::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .bloc .container {
     padding-left: 0;
@@ -654,10 +678,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -713,7 +733,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -723,20 +743,16 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
-h4 {
-    color: #333333!important;
+h4, p {
+    color: black!important;
 }
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -780,16 +796,16 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
