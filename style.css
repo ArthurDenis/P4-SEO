@@ -669,8 +669,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -681,7 +679,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #black!important;
+    color: black!important;
 }
 
 .container {
@@ -762,6 +760,8 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display:flex;
+    flex-direction: row;
 }
 
 .avatar {
@@ -908,6 +908,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .portfolio-row{
+        flex-direction: column;
+    }
+
     h1,
     h2,
     h3,
