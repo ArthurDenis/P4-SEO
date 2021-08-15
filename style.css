@@ -33,7 +33,34 @@ a:hover {
     font-size: medium;
 }
 
+.bold-for-background{
+    font-weight: bold;
+}
 
+.hero-bloc-text {
+    color:white;
+}
+
+.title-page-2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.tc-black{
+    color:white;
+    font-size: 24px;
+}
+
+#bloc-6{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-group {
+    color: #000000;
+}
 
 .bloc {
     width: 100%;
@@ -451,6 +478,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .btn {
@@ -647,13 +675,6 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
 
 .statement-bloc-text {
     line-height: 26px;
@@ -748,9 +769,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -758,10 +777,6 @@ h4 {
 
 .tc-white {
     color: black;
-}
-
-.tc-black{
-    color:white;
 }
 
 .btn-atomic-tangerine {
