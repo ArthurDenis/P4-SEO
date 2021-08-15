@@ -5,12 +5,14 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font: black;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    font:black;
 }
 
 a:hover {
@@ -26,6 +28,12 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
+.text-center{
+    font-size: medium;
+}
+
+
 
 .bloc {
     width: 100%;
@@ -510,25 +518,6 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -651,7 +640,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #black!important;
 }
 
 .container {
@@ -692,7 +681,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -707,6 +696,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #000000;
 }
 
 h3 {
@@ -722,21 +712,13 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -775,17 +757,21 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black;
+}
+
+.tc-black{
+    color:white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: black;
 }
 
 .ltc-white {
